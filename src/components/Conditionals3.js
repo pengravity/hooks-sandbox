@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// logical and && operator
+// Ternary operator
 const Conditionals3 = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -11,18 +11,27 @@ const Conditionals3 = () => {
     setIsLoggedIn(false);
   };
 
+  const toggleLogin = () => {
+    setIsLoggedIn(!isLoggedIn);
+  };
+
   return (
     <div className='container'>
-      <div className='--text-center --my2 --p2'>
-        {isLoggedIn ? <h1>Welcome Joe</h1> : <h1>Welcome Guest</h1>}
+      <div className={isLoggedIn ? 'orange' : ''}>
+        <div className='--text-center --my2 --p2'>
+          {isLoggedIn ? <h1>Welcome Joe</h1> : <h1>Welcome Guest</h1>}
 
-        <div className='--inline-block --p2 --my2'>
-          <button onClick={login} className='--btn --btn-primary '>
-            Login
-          </button>
-          <button onClick={logout} className='--btn  '>
-            Logout
-          </button>
+          <div className=' --p2 --my2 --center-all'>
+            <button onClick={login} className='--btn --btn-primary '>
+              Login
+            </button>
+            <button onClick={logout} className='--btn  '>
+              Logout
+            </button>
+            <button onClick={toggleLogin} className='--btn --btn-danger  '>
+              Toggle {isLoggedIn ? 'logout' : 'login'}
+            </button>
+          </div>
         </div>
       </div>
     </div>

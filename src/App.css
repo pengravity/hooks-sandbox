@@ -26,6 +26,14 @@
   scroll-behavior: smooth;
 }
 
+.orange {
+  background-color: orange;
+}
+
+.complete {
+  color: red;
+}
+
 html {
   font-size: 10px;
 }
