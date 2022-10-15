@@ -5,12 +5,12 @@ import UseStateArray from './components/UseStateArray';
 import UseStateObjects from './components/UseStateObjects';
 import Conditionals3 from './components/Conditionals3';
 import ConditionalsWithProps from './components/ConditionalsWithProps/ConditionalsWIthProps';
-import UseEffect from './components/UseEffect';
+import UseEffectCleanup from './components/UseEffectCleanup';
 
 function App() {
   return (
     <div>
-      <UseEffect />
+      <UseEffectCleanup />
     </div>
   );
 }
