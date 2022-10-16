@@ -7,12 +7,13 @@ import './App.css';
 // import ConditionalsWithProps from './components/ConditionalsWithProps/ConditionalsWIthProps';
 // import UseEffectCleanup from './components/UseEffectCleanup';
 // import ControlledInputs from './components/forms/ControlledInputs';
-import MultipleControlledInputs from './components/forms/MultipleControlledInputs';
+//import MultipleControlledInputs from './components/forms/MultipleControlledInputs';
+import UncontrolledInputs from './components/forms/UncontrolledInputs';
 
 function App() {
   return (
     <div>
-      <MultipleControlledInputs />
+      <UncontrolledInputs />
     </div>
   );
 }
