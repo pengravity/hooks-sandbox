@@ -16,7 +16,10 @@ const ControlledInputs = () => {
       <h1 className='--text-ligth --center'>controlled inputs</h1>
       <div className='--flex-center'>
         <div className='--card --bg-light --width-500px --flex-center'>
-          <form onSubmit={handleSubmit} className='--form-control'>
+          <form
+            onSubmit={handleSubmit}
+            className='--form-control --space-between'
+          >
             <div>
               <label htmlFor='name'>Name</label>
               <input

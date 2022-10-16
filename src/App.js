@@ -6,12 +6,13 @@ import './App.css';
 // import Conditionals3 from './components/Conditionals3';
 // import ConditionalsWithProps from './components/ConditionalsWithProps/ConditionalsWIthProps';
 // import UseEffectCleanup from './components/UseEffectCleanup';
-import ControlledInputs from './components/forms/ControlledInputs';
+// import ControlledInputs from './components/forms/ControlledInputs';
+import MultipleControlledInputs from './components/forms/MultipleControlledInputs';
 
 function App() {
   return (
     <div>
-      <ControlledInputs />
+      <MultipleControlledInputs />
     </div>
   );
 }
