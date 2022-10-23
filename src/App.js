@@ -10,12 +10,13 @@ import UseReducerBasics from './components/useReducer/UseReducerBasics';
 // import ControlledInputs from './components/forms/ControlledInputs';
 //import MultipleControlledInputs from './components/forms/MultipleControlledInputs';
 // import UncontrolledInputs from './components/forms/UncontrolledInputs';
-import UserApp from './components/propsDrilling/UserApp';
+// import UserApp from './components/propsDrilling/UserApp';
+import GithubUsers from './components/customHooks/GithubUsers';
 
 function App() {
   return (
     <div>
-      <UserApp />
+      <GithubUsers />
     </div>
   );
 }
