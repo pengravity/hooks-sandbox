@@ -9,12 +9,13 @@ import UseReducerBasics from './components/useReducer/UseReducerBasics';
 // import UseEffectCleanup from './components/UseEffectCleanup';
 // import ControlledInputs from './components/forms/ControlledInputs';
 //import MultipleControlledInputs from './components/forms/MultipleControlledInputs';
-import UncontrolledInputs from './components/forms/UncontrolledInputs';
+// import UncontrolledInputs from './components/forms/UncontrolledInputs';
+import UserApp from './components/propsDrilling/UserApp';
 
 function App() {
   return (
     <div>
-      <UseReducerBasics />
+      <UserApp />
     </div>
   );
 }
